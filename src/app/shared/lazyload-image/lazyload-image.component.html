@@ -1,0 +1,14 @@
+<div class="image-container" *ngIf="url">
+    <img [src]="url" 
+        alt="" 
+        class="card-img-top" 
+        (load)="onLoad()"
+    
+        [ngStyle]="{display: hasLoader ? '' : 'none' }"
+    >
+    <b *ngIf="!hasLoader">Cargando</b>
+</div>
+
+    
+    <!-- <img height="35" width="35" class="mt-3" *ngIf="!hasLoader" src="assets/loader.svg" alt=""> -->
+

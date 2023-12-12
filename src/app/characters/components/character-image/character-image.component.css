@@ -1,0 +1,23 @@
+.image-container{
+  height: 300px;
+  width: 300px;
+ 
+  
+}
+
+.image-container > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+
+
+.image-con-sombra {
+  filter: brightness(0) ;
+}
+

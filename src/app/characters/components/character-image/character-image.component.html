@@ -1,0 +1,3 @@
+<div class="image-container">
+    <img [class.image-con-sombra]="!adivina" *ngIf="character" [src]="character.image | characterImage" [alt]="character.name">
+</div>

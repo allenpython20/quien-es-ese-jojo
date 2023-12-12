@@ -1,0 +1,35 @@
+body{
+  background-color: #6f2b95!important ;
+}
+
+.btn-reset{
+  border-radius: 4px;
+  background-color: #E15FB6;
+  border: 1px solid #E15FB6;
+
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px;
+
+}
+
+.btn-reset:hover {
+  background-color: #D66A9A;
+  border-color: #D66A9A;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.col-display {
+  width: 90px;
+  height: 55px;
+  background: #AD76C9;
+  border-radius: 5px;
+  font-family: "Silkscreen", cursive;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+
+  text-align: center;
+  color: #fff;
+}
