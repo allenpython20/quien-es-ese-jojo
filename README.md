@@ -1,27 +1,34 @@
-# QuienEsEseJojo
+# Adivina al Personaje - JoJo's Bizarre Adventure
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+Este proyecto es un juego de adivinar personajes del anime JoJo's Bizarre Adventure. El juego muestra la silueta de un personaje y ofrece cuatro opciones. Si se falla tres veces, se pierde; sin embargo, se pueden ganar puntos de forma continua y reiniciar el juego en cualquier momento.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Muestra la silueta de un personaje de JoJo's Bizarre Adventure.
+- Ofrece cuatro opciones para adivinar quién es el personaje.
+- Lleva un conteo de fallos. Si se llega a tres fallos, se pierde.
+- Permite sumar puntos de forma continua.
+- Permite reiniciar el juego en cualquier momento.
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clona este repositorio: `git clone https://github.com/allenpython20/quien-es-ese-jojo.git`
+2. Navega a la carpeta del proyecto: `cd quien-es-ese-jojo`
+3. Instala las dependencias: `npm install`
 
-## Build
+## Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Inicia el juego: `npm start` o `ng serve` (dependiendo de tu configuración).
+2. Abre tu navegador e ingresa a `http://localhost:4200` para comenzar a jugar.
 
-## Running unit tests
+## Tecnologías utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular: Framework utilizado para la interfaz de usuario.
+- CSS: Estilos para la presentación.
+- TypeScript: Lenguaje utilizado para la lógica del juego.
+- Imágenes de los personajes de JoJo's Bizarre Adventure.
 
-## Running end-to-end tests
+## Estructura del proyecto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+El proyecto está organizado de la siguiente manera:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
